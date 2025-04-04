@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <!--
+   head contém configurações da página (metadados), que não ficaram visíveis -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <!--Define conjunto de caracteres utilizados -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Não tem tanta importancia -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- se adaptar ao dispositivo-->
+    <title>DevLinks</title>
+    <!-- Aqui será o nome da minha página no browser-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- Parte Visivel da página-->
+  <body>
+    <!-- Div é uma caixa genérica, utilizada para organizar a pagina-->
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar1.png" alt="" />
+        <p>@thalisena</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Thalita é linda</a>
+        </li>
+        <li>
+          <a href="#">Thalita é maravilhosa</a>
+        </li>
+        <li>
+          <a href="#">Thalita é perfeita</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/thalisena/" target="_blank"
+            >Olha como Thalita é linda</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://instagram.com/thalisena" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <footer>
+      <!--Rodapé-->
+      Feito com ♥ por Thalita
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
