@@ -2,7 +2,10 @@
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://thalisenaa.github.io/projetolinks/" target="_blank">Acesso o meu projeto clicando aqui.</a>
+<a href="https://thalisenaa.github.io/projetolinks/" target="_blank">
+  Acesso o meu projeto clicando aqui.
+</a>
+
 </p>
 
 <p align="center">
